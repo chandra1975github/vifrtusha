@@ -1,0 +1,414 @@
+Date: Sun, 9 Jun 2019 05:46:39 +0000 (UTC)
+Message-ID: <1378182990.17.1560059199910@1467828ed421>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16_871902656.1560059199910"
+
+------=_Part_16_871902656.1560059199910
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Code Review Process</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Code Review Process</h1>
+    <div class=3D"Section1">
+        <h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-Codereviewp=
+rocessobjectives">Code review process objectives</h2>
+<ul style=3D"text-align: left;">
+<li>Ensure each line of code has been reviewed by at least a second set of =
+eyes</li>
+<li>Remove uncertainty of who has the next action, emphasizing quick turnar=
+ound</li>
+<li>Encourage direct communication between reviewer(s) and developer(s)
+<ul>
+<li>while also accurately representing card state in JIRA</li>
+</ul></li>
+<li>Check card conforms to previously accepted design
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">All configuration should be extern=
+alized (either as input parameters or read from external configuration file=
+s)</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Follow agreed best practices aroun=
+d code documentation (including in-line and README.md at the module level)<=
+/span></li>
+<li><span style=3D"color: rgb(0,0,255);">Avoid deep levels of code nesting =
+which make Python code hard to read and follow</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Use explicit notation to different=
+iate class/instance level variables from globals</span></li>
+<li><span style=3D"color: rgb(0,0,255);">The code logic should be static an=
+d not purposefully mutated at run time. For example, CloudFormation templat=
+es should not be modified as part of a deployment. Instead, all input conte=
+xt and&nbsp;parameters should be externalized and provided at execution dir=
+ectly, or through external configuration files.</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Any specific ARN resources and sec=
+urity keys should never be stored directly in code</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Optimized use of Boto Resources an=
+d Client wrappers. Use class level variables to initialize Boto Resources t=
+hat can be reused in a stateless manner, to minimize runtime overhead.</spa=
+n></li>
+<li><span style=3D"color: rgb(0,0,255);">TODO: Design review process (refer=
+ence:&nbsp;<a href=3D"https://confluence.atlassian.com/bitbucket/pull-reque=
+sts-and-code-review-223220593.html" class=3D"external-link" rel=3D"nofollow=
+">https://confluence.atlassian.com/bitbucket/pull-requests-and-code-review-=
+223220593.html</a>)</span></li>
+</ul></li>
+</ul>
+<h1 style=3D"text-align: left;" id=3D"CodeReviewProcess-CardTransitions">Ca=
+rd Transitions</h1>
+<h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-Authorcreatesabranc=
+hinVersionControlforDevelopment"><span style=3D"color: rgb(0,128,0);">Autho=
+r creates a branch in Version Control for Development</span></h2>
+<ul style=3D"text-align: left;">
+<li><span style=3D"color: rgb(0,0,0);">JIRA card picked up by author and as=
+signed to oneself. Card moves to 'In Progress' state.</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Author creates a new branch(preferab=
+ly from Trunk) for adding code related to the JIRA card.&nbsp; From now on =
+this development branch shall be referred to as a 'Feature' branch.</span><=
+/li>
+<li><span style=3D"color: rgb(0,0,0);">The branch can be named with the JIR=
+A card number so it is easily traceable.&nbsp;</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,255);"=
+>TODO: Integration between CodeCommit and JIRA.&nbsp;</span></span></li>
+</ul></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-Authorcreatesreview=
+andmovescardintoCodeReviewcolumn"><span style=3D"color: rgb(0,128,0);">Auth=
+or creates review and moves card into Code Review column</span></h2>
+<ul style=3D"text-align: left;">
+<li>Create review once functionality is complete
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">When development is complete, a pull=
+ request is created to merge the Feature branch back to Trunk. PR hereby re=
+fers to Pull Request in this document.</span></li>
+<li>An optional description is added to the pull request, to highlight the =
+changes being merged.</li>
+<li>Add relevant Reviewers to the Pull request, based on an pre-agreed revi=
+ew groups. For e.g, any changes related to Data Lakes etc could be shared a=
+mong the Data Engineers group etc.<span>&nbsp;</span><span style=3D"color: =
+rgb(0,0,255);">TODO: Identify Review Groups</span></li>
+<li>Reviewers get notified of the pending code review.<span>&nbsp;</span><s=
+pan style=3D"color: rgb(0,0,255);">TODO: Enable email notifications in Code=
+Commit.</span></li>
+<li>Optionally, use one of the Collaboration tools to announce Code Ready f=
+or Review.</li>
+<li>JIRA card is now moved to 'Code Review' state.</li>
+</ul></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-CardisinCodeReviewc=
+olumn"><span style=3D"color: rgb(0,128,0);">Card is in Code Review column</=
+span></h2>
+<ul style=3D"text-align: left;">
+<li>The<span>&nbsp;</span><strong>TEAM</strong><span>&nbsp;</span>is respon=
+sible to move cards quickly across the Board.<br>
+<ul>
+<li>To ensure code reviews are completed&nbsp;in reasonable timeframe.
+<ul>
+<li>Team should ensure a card doesnt spend more than 1 day in this column, =
+before getting an initial feedback.
+<ul>
+<li>In case of global teams and cross-site reviews, this timeline could be =
+extended to 2 days, allowing for time-zone differences.</li>
+</ul></li>
+<li>Daily Standups are a good place to followup review status.<span>&nbsp;<=
+/span><span style=3D"color: rgb(0,0,255);">TODO: Ensure the team has freque=
+nt catchups. Preferable once a day. Doesnt have to be in person, could use =
+one of the many Collaboration Tools.&nbsp;</span></li>
+</ul>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Code Review gets highest priority wh=
+en the reviewer has multiple tasks.<span>&nbsp;</span><span style=3D"color:=
+ rgb(0,0,255);">TODO:&nbsp;Imbibe a culture of open feedback in the team an=
+d emphasise the importance of processes.</span></span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Any team member can pick up the revi=
+ew.</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Reviewer assigns the JIRA card to on=
+eself when ready, to let others know that it is being reviewed.&nbsp;</span=
+></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Other Reviewers are more than welcom=
+e of offer their feedback anytime before the review is closed.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">PR needs at least<span>&nbsp;</span>=
+<strong>two</strong><span>&nbsp;</span>approval before merging.<span>&nbsp;=
+</span><span style=3D"color: rgb(0,0,255);">TODO:&nbsp; TO discuss further.=
+</span></span></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-Reviewer(s)review/r=
+e-reviewthecode"><span style=3D"color: rgb(0,128,0);">Reviewer(s) review/re=
+-review the code</span></h2>
+<ul style=3D"text-align: left;">
+<li>Some reference info:<span>&nbsp;</span><span style=3D"color: rgb(0,0,25=
+5);">TODO: Code Review Checklist</span></li>
+<li>Use the CodeCommit tool to provide any feedback/suggestions/comments to=
+ the author.</li>
+<li>After completing review,&nbsp;<strong>notify&nbsp;</strong>the author t=
+hat the review is complete and assign the card back to the author (just ass=
+igning the card is not enough)
+<ul>
+<li>If there are no changes needed, it's recommended to approve the PR.</li=
+>
+<li>In case of action needed from the author, notify the author and wait to=
+ re-review the changes.</li>
+</ul></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-Authorrespondstocom=
+ments"><span style=3D"color: rgb(0,128,0);">Author responds to comments</sp=
+an></h2>
+<ul style=3D"text-align: left;">
+<li>The author shall reply to comments - even if it's just "Done" to indica=
+te the suggested change has been made, or "I don't think this is necessary"=
+ to indicate no action would be taken</li>
+<li>If there's a question on a comment, it's recommended to switch to verba=
+l or other modes of communication
+<ul>
+<li>once sorted out, then a summary comment should be posted as a comment i=
+n the PR.</li>
+</ul></li>
+<li>If author decides to make additional changes and they are determined to=
+ be substantial, the JIRA card should be returned to development state and =
+the card should repeat the review cycle</li>
+<li>When the author finishes addressing all review comments, the reviewer(s=
+) should be notified that the PR is ready for a re-review.&nbsp;</li>
+<li>The JIRA card should be moved to 'Code Review' status.&nbsp;</li>
+<li>Reviewers shall have a look at the code changes and either approve the =
+PR or provide additional comments.&nbsp;</li>
+<li>Review is an iterative process until the author and the reviewers agree=
+ on the quality of the code.&nbsp;</li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"CodeReviewProcess-Cardmovestotesting"=
+><span style=3D"color: rgb(0,128,0);">Card moves to testing</span></h2>
+<ul style=3D"text-align: left;">
+<li>When the PR gets the needed approvals, author merges the PR and moves t=
+he JIRA card to testing column.
+<ul>
+<li>Other team member can move the card into testing if author unavailable<=
+/li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_16_871902656.1560059199910--
